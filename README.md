@@ -5,9 +5,7 @@
 # HEROKU
 If you are not a developer all you have to is to copy my pre-coded project and you are good to go, for more details if you want to add more functionalities ask me in comment and i will do a developer version of this tutorial.
 click this button.
-<center>
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mrsmook/music-discord-heroku-bot/tree/master)
-</center>
 And then click manage app for the next section.
 
 # Configure your bot
