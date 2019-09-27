@@ -1,0 +1,17 @@
+{
+  "name": "discord.js-example-bot",
+  "version": "1.0.0",
+  "description": "Example Music Bot by MrSmooK",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "MrSmooK",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "11.3.2",
+    "discord.js-musicbot-addon": "^13.8.1",
+    "node-fetch": "2.1.1",
+    "node-opus": "^0.3.2"
+  }
+}

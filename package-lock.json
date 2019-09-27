@@ -1,0 +1,137 @@
+{
+  "name": "discord.js-example-bot",
+  "version": "1.0.0",
+  "lockfileVersion": 1,
+  "requires": true,
+  "dependencies": {
+    "bindings": {
+      "version": "1.2.1",
+      "resolved": "https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz",
+      "integrity": "sha1-FK1hE4EtLTfXLme0ystLtyZQXxE="
+    },
+    "commander": {
+      "version": "2.20.0",
+      "resolved": "https://registry.npmjs.org/commander/-/commander-2.20.0.tgz",
+      "integrity": "sha512-7j2y+40w61zy6YC2iRNpUe/NwhNyoXrYpHMrSunaMG64nRnaf96zO/KMQR4OyN/UnE5KLyEBnKHd4aG3rskjpQ=="
+    },
+    "debug": {
+      "version": "2.6.9",
+      "resolved": "https://registry.npmjs.org/debug/-/debug-2.6.9.tgz",
+      "integrity": "sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==",
+      "optional": true,
+      "requires": {
+        "ms": "2.0.0"
+      }
+    },
+    "discord.js-musicbot-addon": {
+      "version": "13.8.1",
+      "resolved": "https://registry.npmjs.org/discord.js-musicbot-addon/-/discord.js-musicbot-addon-13.8.1.tgz",
+      "integrity": "sha512-Pd4+BV3E/3thNmBfFEhd0iF73ys88POMiGtlxDTCmf1qKggkGPpt5f/rAHM7cLJy+F0wVZCoX0UELukx+QAjyQ==",
+      "requires": {
+        "ytdl-core": "^0.29.7",
+        "ytpl": "^0.1.16",
+        "ytsearcher": "^1.2.2"
+      }
+    },
+    "html-entities": {
+      "version": "1.2.1",
+      "resolved": "https://registry.npmjs.org/html-entities/-/html-entities-1.2.1.tgz",
+      "integrity": "sha1-DfKTUfByEWNRXfueVUPl9u7VFi8="
+    },
+    "m3u8stream": {
+      "version": "0.6.2",
+      "resolved": "https://registry.npmjs.org/m3u8stream/-/m3u8stream-0.6.2.tgz",
+      "integrity": "sha512-WsuM2bd5pPN80xvfrB+1DZqr4M7+kJl8byi6+ZCy6cmVjEiHhmr/desN53Ngsa6Hs13kYumeVgT4wL0oIJ+v6g==",
+      "requires": {
+        "miniget": "^1.4.0",
+        "sax": "^1.2.4"
+      }
+    },
+    "miniget": {
+      "version": "1.5.3",
+      "resolved": "https://registry.npmjs.org/miniget/-/miniget-1.5.3.tgz",
+      "integrity": "sha512-6xiJs3ZGBdrNMlPNlEWirHhY53hSW33nG1Ytub9Cg5+jLhFPn9PGe4FmPZK9WlmDE1N7/8DEL7PGr7r9kbxwgw=="
+    },
+    "ms": {
+      "version": "2.0.0",
+      "resolved": "https://registry.npmjs.org/ms/-/ms-2.0.0.tgz",
+      "integrity": "sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=",
+      "optional": true
+    },
+    "nan": {
+      "version": "2.14.0",
+      "resolved": "https://registry.npmjs.org/nan/-/nan-2.14.0.tgz",
+      "integrity": "sha512-INOFj37C7k3AfaNTtX8RhsTw7qRy7eLET14cROi9+5HAVbbHuIWUHEauBv5qT4Av2tWasiTY1Jw6puUNqRJXQg=="
+    },
+    "node-opus": {
+      "version": "0.3.2",
+      "resolved": "https://registry.npmjs.org/node-opus/-/node-opus-0.3.2.tgz",
+      "integrity": "sha512-o7hKgNncfbgF1j25lCK7cPqs9DEMroP3LWW0BMb/Ismc33cXo7LcaLqS0+/VV+NOotIy43fb7juLg6akflzBEw==",
+      "requires": {
+        "bindings": "~1.2.1",
+        "commander": "^2.9.0",
+        "nan": "^2.14.0",
+        "ogg-packet": "^1.0.0"
+      }
+    },
+    "ogg-packet": {
+      "version": "1.0.1",
+      "resolved": "https://registry.npmjs.org/ogg-packet/-/ogg-packet-1.0.1.tgz",
+      "integrity": "sha512-dW1ok3BMnMikyXGDIgVEckWnlViW8JLWQV4qj9aN/rNRVqHlDYSlcIEtSIMH7tpuUOiIxAhY3+OxNdIOm6s17A==",
+      "optional": true,
+      "requires": {
+        "ref-struct": "*"
+      }
+    },
+    "ref": {
+      "version": "1.3.5",
+      "resolved": "https://registry.npmjs.org/ref/-/ref-1.3.5.tgz",
+      "integrity": "sha512-2cBCniTtxcGUjDpvFfVpw323a83/0RLSGJJY5l5lcomZWhYpU2cuLdsvYqMixvsdLJ9+sTdzEkju8J8ZHDM2nA==",
+      "optional": true,
+      "requires": {
+        "bindings": "1",
+        "debug": "2",
+        "nan": "2"
+      }
+    },
+    "ref-struct": {
+      "version": "1.1.0",
+      "resolved": "https://registry.npmjs.org/ref-struct/-/ref-struct-1.1.0.tgz",
+      "integrity": "sha1-XV7mWtQc78Olxf60BYcmHkee3BM=",
+      "optional": true,
+      "requires": {
+        "debug": "2",
+        "ref": "1"
+      }
+    },
+    "sax": {
+      "version": "1.2.4",
+      "resolved": "https://registry.npmjs.org/sax/-/sax-1.2.4.tgz",
+      "integrity": "sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw=="
+    },
+    "ytdl-core": {
+      "version": "0.29.7",
+      "resolved": "https://registry.npmjs.org/ytdl-core/-/ytdl-core-0.29.7.tgz",
+      "integrity": "sha512-mqPuZ1UyspT84lyV1FSU1UAoiQ4H5j52ba3sC1LC43OmL8qNaDIRCGffGlpiakQrc69qsplNWsWEZUF+J5bhJA==",
+      "requires": {
+        "html-entities": "^1.1.3",
+        "m3u8stream": "^0.6.2",
+        "miniget": "^1.5.3",
+        "sax": "^1.1.3"
+      }
+    },
+    "ytpl": {
+      "version": "0.1.16",
+      "resolved": "https://registry.npmjs.org/ytpl/-/ytpl-0.1.16.tgz",
+      "integrity": "sha512-QAYTnfSafLJCzFqGUL9QNK+pD/0w0N086e50xhdaBadM+HILg9PijgHheqzJaLy3jskATizSQ1XeQ6ypL/LLtQ==",
+      "requires": {
+        "html-entities": "^1.1.3"
+      }
+    },
+    "ytsearcher": {
+      "version": "1.2.2",
+      "resolved": "https://registry.npmjs.org/ytsearcher/-/ytsearcher-1.2.2.tgz",
+      "integrity": "sha512-nQ38akKe3O2OGfQba0aTetMx25U/V+jD+MN1v26/lR497KyzpPIolQuNEf5x4O0ANvLLIS9iPSc91Zle1OP+ww=="
+    }
+  }
+}
