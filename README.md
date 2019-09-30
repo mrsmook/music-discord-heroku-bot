@@ -72,9 +72,9 @@ Store the copied API youtube key we will need it in the last step of the tutoria
 # Deploy our bot
 If you are not a developer all you have to is to copy my pre-coded project and you are good to go, for more details if you want to add more functionalities ask me in comment and i will do a developer version of this tutorial.
 click this button.
+Add the copied tokens and prefix.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mrsmook/music-discord-heroku-bot/tree/master)
-
 
 ![Make your own music Discord bot for FREE](/assets/img/contents/discord-tutorial-5.png "Make your own music Discord bot for FREE")
 
@@ -83,14 +83,6 @@ And then click manage app for the next section.
 Under resources tab disable Web and activate Worker.
 
 ![Make your own music Discord bot for FREE](/assets/img/contents/discord-tutorial-6.png "Make your own music Discord bot for FREE")
-
- Under settings click on add buildpack and copy paste this link :
-https://gist.github.com/e1d9b00e76032a98afa404e18185841f
-
-Then click on reveal config vars and add the copied tokens and the prefix you want to use for the bot
-
-![Make your own music Discord bot for FREE](/assets/img/contents/discord-tutorial-7.png "Make your own music Discord bot for FREE")
-![Make your own music Discord bot for FREE](/assets/img/contents/discord-tutorial-8.png "Make your own music Discord bot for FREE")
 
 Finally click on more and restart all dynos
 
