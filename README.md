@@ -76,7 +76,7 @@ Add the copied tokens and prefix.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mrsmook/music-discord-heroku-bot/tree/master)
 
-![Make your own music Discord bot for FREE](/assets/img/contents/discord-tutorial-5.png "Make your own music Discord bot for FREE")
+![Make your own music Discord bot for FREE](/assets/img/contents/discord-tutorial-10.png "Make your own music Discord bot for FREE")
 
 And then click manage app for the next section.
 # Configure your bot
