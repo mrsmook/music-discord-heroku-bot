@@ -89,7 +89,7 @@ Finally click on more and restart all dynos
 ![Make your own music Discord bot for FREE](/assets/img/contents/discord-tutorial-9.png "Make your own music Discord bot for FREE")
 
 Now you cant test your bot with any command
-https://gist.github.com/b2228080dda37dccda2b96ae2c181a07
+> play justin bieber baby
 
 if you liked the tutorial you can **support me** by :
 
