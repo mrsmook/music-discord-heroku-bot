@@ -3,5 +3,24 @@
   "description": "A discord Node.js music app",
   "repository": "https://github.com/mrsmook/music-discord-heroku-bot",
   "logo": "https://img.icons8.com/color/452/nodejs.png",
-  "keywords": ["node", "discord", "youtube"]
+  "keywords": ["node", "discord", "youtube"],
+  "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ],
+  "env": {
+    "BOT_TOKEN": {
+      "description": "The token copied in the first section.",
+      "required": "true"
+    },
+    "BOT_YOUTUBE_TOKEN": {
+      "description": "The token copied in the second section.",
+      "required": "true"
+    },
+    "PREFIX": {
+      "description": "The prfix you want to use with the bot.",
+      "value": "!"
+    }
+  }  
 }
