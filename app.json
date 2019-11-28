@@ -4,6 +4,7 @@
   "repository": "https://github.com/mrsmook/music-discord-heroku-bot",
   "logo": "https://img.icons8.com/color/452/nodejs.png",
   "keywords": ["node", "discord", "youtube"],
+  "image": "heroku/nodejs",
   "buildpacks": [
     {
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
