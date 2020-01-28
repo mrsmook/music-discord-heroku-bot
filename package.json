@@ -1,7 +1,7 @@
 {
   "name": "discord.js-example-bot",
   "version": "1.0.0",
-  "description": "Example Music Bot by MrSmooK",
+  "description": "Example Music Bot by MrSmooK (updated)",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
