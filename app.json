@@ -1,6 +1,6 @@
 {
-  "name": "Node.js Music Discord Bot",
-  "description": "A discord Node.js music app",
+  "name": "Node.js Music Discord Bot ",
+  "description": "A discord Node.js music bot app",
   "repository": "https://github.com/mrsmook/music-discord-heroku-bot",
   "logo": "https://img.icons8.com/color/452/nodejs.png",
   "keywords": ["node", "discord", "youtube"],
