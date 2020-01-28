@@ -9,9 +9,9 @@
   "author": "MrSmooK",
   "license": "MIT",
   "dependencies": {
-    "discord.js": "11.3.2",
+    "discord.js": "11.5.1",
     "discord.js-musicbot-addon": "^13.9.1",
-    "node-fetch": "2.1.1",
-    "node-opus": "^0.3.2"
+    "node-fetch": "2.6.0",
+    "node-opus": "^0.3.3"
   }
 }
