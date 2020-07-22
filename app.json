@@ -11,6 +11,9 @@
     },
     {
       "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/ytdl-org/youtube-dl.git"
     }
   ],
   "env": {
