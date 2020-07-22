@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const Music = require('discord.js-musicbot-addon');
+const Music = require('discord.js-musicbot-addon-v2');
 const client = new Discord.Client();
 
 const PREFIX = process.env.PREFIX;
