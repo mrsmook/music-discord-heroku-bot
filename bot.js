@@ -6,10 +6,12 @@ const PREFIX = process.env.PREFIX;
 
 const music = new Music(client, {
     youtubeKey: process.env.BOT_YOUTUBE_TOKEN,
-    botPrefix: PREFIX,
+    prefix: PREFIX,
     ownerOverMember: true,
-    botOwner: 'MrSmooK#9756',
-    djRole:'MrSmooK#9756'
+    botOwner: '209728169131900928',
+    djRole:'GOD',
+    maxQueueSize: "100",
+    disableLoop: true,
 });
 
 client.login(process.env.BOT_TOKEN);
