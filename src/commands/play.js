@@ -17,6 +17,7 @@ module.exports = {
 		const permissions = channel.permissionsFor(message.client.user);
 		if (!permissions.has('CONNECT')) return message.channel.send('I cannot connect to your voice channel, make sure I have the proper permissions!');
 		if (!permissions.has('SPEAK')) return message.channel.send('I cannot speak in this voice channel, make sure I have the proper permissions!');
+		const song = {};
 		search(args[0].replace(/<(.+)>/g, '$1'), opts, function(err, results) {
 		  if(err) return console.log(err);
 		  console.dir(results[0].id);
@@ -25,13 +26,14 @@ module.exports = {
 		  let id = results[0].id;
 		  let link = results[0].link;
 		  let title = results[0].title;
-		  const serverQueue = message.client.queue.get(message.guild.id);
-		const song = {
+		  song = {
 			id: id,
 			title: Util.escapeMarkdown(title),
 			url: link
 		};
-
+		});
+		const serverQueue = message.client.queue.get(message.guild.id);
+		
 		if (serverQueue) {
 			serverQueue.songs.push(song);
 			console.log(serverQueue.songs);
@@ -77,7 +79,5 @@ module.exports = {
 			await channel.leave();
 			return message.channel.send(`I could not join the voice channel: ${error}`);
 		}
-		});
-		
 	}
 };
