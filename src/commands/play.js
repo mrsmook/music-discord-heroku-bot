@@ -3,7 +3,8 @@ const ytdl = require('ytdl-core');
 let search = require('youtube-search');
 let opts = {
   maxResults: 1,
-  key: 'AIzaSyCwruUG_wYFitHNF2ByWHCk25yJYybtLEo'
+  key: 'AIzaSyCwruUG_wYFitHNF2ByWHCk25yJYybtLEo',
+  type: 'video'
 };
 module.exports = {
 	name: 'play',
