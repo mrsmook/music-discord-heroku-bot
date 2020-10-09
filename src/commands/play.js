@@ -19,15 +19,18 @@ module.exports = {
 		if (!permissions.has('SPEAK')) return message.channel.send('I cannot speak in this voice channel, make sure I have the proper permissions!');
 		search(args[0].replace(/<(.+)>/g, '$1'), opts, function(err, results) {
 		  if(err) return console.log(err);
-		 
-		  console.dir(results);
+		  console.dir(results[0].id);
+		  console.dir(results[0].link);
+		  console.dir(results[0].title);
+		  let id = results[0].id;
+		  let link = results[0].link;
+		  let title = results[0].title;
 		});
 		const serverQueue = message.client.queue.get(message.guild.id);
-		const songInfo = await ytdl.getInfo(args[0].replace(/<(.+)>/g, '$1'));
 		const song = {
-			id: songInfo.videoDetails.video_id,
-			title: Util.escapeMarkdown(songInfo.videoDetails.title),
-			url: songInfo.videoDetails.video_url
+			id: id,
+			title: Util.escapeMarkdown(title),
+			url: link
 		};
 
 		if (serverQueue) {
