@@ -3,7 +3,7 @@
 	"version": "0.1.0",
 	"description": "Very simple discord music bot with the discordjs.guide command handler for easy learning and adapting.",
 	"main": "src/index.js",
-	"author": "MrSmooK <MrSmooK.dev@gmail.com>",
+	"author": "MrSmooK <mrsmook.dev@gmail.com>",
 	"license": "MIT",
 	"private": true,
 	"scripts": {
