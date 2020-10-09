@@ -25,8 +25,7 @@ module.exports = {
 		  let id = results[0].id;
 		  let link = results[0].link;
 		  let title = results[0].title;
-		});
-		const serverQueue = message.client.queue.get(message.guild.id);
+		  const serverQueue = message.client.queue.get(message.guild.id);
 		const song = {
 			id: id,
 			title: Util.escapeMarkdown(title),
@@ -78,5 +77,7 @@ module.exports = {
 			await channel.leave();
 			return message.channel.send(`I could not join the voice channel: ${error}`);
 		}
+		});
+		
 	}
 };
