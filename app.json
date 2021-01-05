@@ -20,7 +20,11 @@
     },
     "DISCORD_PREFIX": {
       "description": "The prfix you want to use with the bot.",
-      "value": "!"
+      "value": "!",
+    },
+    "YOUTUBE_PREFIX": {
+      "description": "The token copied in the second section.",
+      "required": "true"
     }
   }  
 }
