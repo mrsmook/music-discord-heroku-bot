@@ -17,8 +17,6 @@ The discord API provides you with an easy tool to create and use your own bots a
 ## Requirements
 [Heroku account](https://signup.heroku.com)
 
-[Google account](https://developers.google.com/)
-
 # Setting up a discord bot
 First, we need to create a new application on the discord development portal.
 We can do so by visiting the portal and clicking on new application.
