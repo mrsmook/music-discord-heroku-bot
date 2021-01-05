@@ -30,8 +30,8 @@ Chose the right name for the application
 
 After that, we need to select the bot tab and click on add bot and **copy the token** and store it we will need it later.
 
-![Make your own music Discord bot for FREE](/assets/img/contents/discord-tutorial-2-5.png "Make your own music Discord bot for FREE")
-![Make your own music Discord bot for FREE](/assets/img/contents/discord-tutorial-2-6.png "Make your own music Discord bot for FREE")
+![Make your own music Discord bot for FREE](/assets/img/contents/discord-tutorial-2,5.png "Make your own music Discord bot for FREE")
+![Make your own music Discord bot for FREE](/assets/img/contents/discord-tutorial-2,6.png "Make your own music Discord bot for FREE")
 
 Now that both application and bot are created we have to associate the bot to our server
 
