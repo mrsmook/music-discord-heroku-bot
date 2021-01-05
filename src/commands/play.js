@@ -3,7 +3,7 @@ const ytdl = require('ytdl-core');
 let search = require('youtube-search');
 let opts = {
   maxResults: 1,
-  key: 'AIzaSyCwruUG_wYFitHNF2ByWHCk25yJYybtLEo',
+  key: process.env.YOUTUBE_TOKEN,
   type: 'video'
 };
 module.exports = {
