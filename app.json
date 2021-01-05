@@ -20,9 +20,9 @@
     },
     "DISCORD_PREFIX": {
       "description": "The prfix you want to use with the bot.",
-      "value": "!",
+      "value": "!"
     },
-    "YOUTUBE_PREFIX": {
+    "YOUTUBE_TOKEN": {
       "description": "The token copied in the second section.",
       "required": "true"
     }
